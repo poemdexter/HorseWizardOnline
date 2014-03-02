@@ -19,7 +19,7 @@ Assets/playmaker/
 Assets/playmaker.meta
 
 # NGUI
-Assets/NGUI/
-Assets/NGUI.meta
+Assets/ImportedAssets/NGUI/
+Assets/ImportedAssets/NGUI.meta
 UnityVS.HWO.sln.DotSettings
 HWO.userprefs
