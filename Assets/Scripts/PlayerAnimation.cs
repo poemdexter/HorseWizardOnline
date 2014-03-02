@@ -4,6 +4,7 @@ public class PlayerAnimation : MonoBehaviour
 {
     private Animator _anim;
     private Transform _horse;
+    private bool shotFireball = false;
 
     private void Start()
     {
@@ -42,6 +43,13 @@ public class PlayerAnimation : MonoBehaviour
 
     public void DieDone()
     {
+        _horse.localPosition += new Vector3(0,.25f, 0);
+        _anim.SetTrigger("Respawn");
+    }
+
+    public void ShootFireball()
+    {
+        shotFireball = true;
     }
 
     public int[] GetAnimationBooleans()

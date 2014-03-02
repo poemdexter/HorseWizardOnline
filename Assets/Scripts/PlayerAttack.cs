@@ -28,7 +28,7 @@ public class PlayerAttack : MonoBehaviour
     public void EmitFireball()
     {
         var fb = (GameObject) Instantiate(Fireball, GetFireballPosition(), transform.rotation);
-        fb.rigidbody.velocity = transform.forward*FireballSpeed;
+        fb.rigidbody.velocity = transform.forward * FireballSpeed;
     }
 
     private Vector3 GetFireballPosition()
