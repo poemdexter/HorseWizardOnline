@@ -4,7 +4,7 @@ public class NetworkJoin : MonoBehaviour
 {
     private void Start()
     {
-        PhotonNetwork.ConnectUsingSettings("1.1");
+        PhotonNetwork.ConnectUsingSettings("1.2");
     }
 
     private void OnGUI()
